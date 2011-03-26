@@ -1,13 +1,3 @@
-![image](logo.png)
--   InfixOperators
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
-* * * * *
-
 Тут мы собрали полезные инфиксные операторы.
 
     (** пропустить значение последовательно через функции:
