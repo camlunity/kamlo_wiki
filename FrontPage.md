@@ -1,11 +1,3 @@
-![image](logo.png)
--   FrontPage
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 ![THIS IS
