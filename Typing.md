@@ -1,13 +1,3 @@
-![image](logo.png)
--   Typing
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
-* * * * *
-
 Здесь будут описаны некоторые интересные вещи, касающиеся типизации.
 
 Пока кучей, неотсортированные.
