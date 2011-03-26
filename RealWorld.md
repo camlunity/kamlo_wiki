@@ -1,11 +1,3 @@
-![image](logo.png)
--   RealWorld
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 ## OCaml in "Real World"™
