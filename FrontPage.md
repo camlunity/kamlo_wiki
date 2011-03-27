@@ -17,15 +17,15 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 Можете начать, например, с этих страниц:
 
--   [RecentChanges](blob/master/RecentChanges.md): посмотреть
+-   [RecentChanges](kamlo_wiki/blob/master/RecentChanges.md): посмотреть
     недавние изменения
--   [WikiSandBox](blob/master/WikiSandBox.md): поиграться с
+-   [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md): поиграться с
     вики-разметкой
--   [FindPage](blob/master/FindPage.md): найти что-нибудь в базе
+-   [FindPage](kamlo_wiki/blob/master/FindPage.md): найти что-нибудь в базе
     данных
--   [HelpOnMoinWikiSyntax](blob/master/HelpOnMoinWikiSyntax.md):
+-   [HelpOnMoinWikiSyntax](kamlo_wiki/blob/master/HelpOnMoinWikiSyntax.md):
     подсмотреть в шпаргалку по вики-разметке
--   [SiteNavigation](blob/master/SiteNavigation.md): окинуть взглядом
+-   [SiteNavigation](kamlo_wiki/blob/master/SiteNavigation.md): окинуть взглядом
     сайт с высоты птичьего полёта
 
 ## Список статей (в качестве временного решения)
@@ -33,85 +33,85 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 [B](#idx-B) | [C](#idx-C) | [D](#idx-D) | [E](#idx-E) | [F](#idx-F) |
 [G](#idx-G) | [H](#idx-H) | [I](#idx-I) | [J](#idx-J) | [O](#idx-O) |
 [R](#idx-R) | [S](#idx-S) | [T](#idx-T)\
- [Include system pages](blob/master/FrontPage.md?allpages=1)
+ [Include system pages](kamlo_wiki/blob/master/FrontPage.md?allpages=1)
 
 ## B
 
--   [bindings](blob/master/bindings.md)
+-   [bindings](kamlo_wiki/blob/master/bindings.md)
 
--   [bindings/portability](blob/master/bindings-portability.md)
+-   [bindings/portability](kamlo_wiki/blob/master/bindings-portability.md)
 
--   [bindings/tips](blob/master/bindings-tips.md)
+-   [bindings/tips](kamlo_wiki/blob/master/bindings-tips.md)
 
 ## C
 
--   [C10K](blob/master/C10K.md)
+-   [C10K](kamlo_wiki/blob/master/C10K.md)
 
--   [camlp4](blob/master/camlp4.md)
+-   [camlp4](kamlo_wiki/blob/master/camlp4.md)
 
--   [camlp4/StreamParsers](blob/master/camlp4-StreamParsers.md)
+-   [camlp4/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
 
--   [CrazyIdeas](blob/master/CrazyIdeas.md)
+-   [CrazyIdeas](kamlo_wiki/blob/master/CrazyIdeas.md)
 
 ## D
 
--   [Documentation](blob/master/Documentation.md)
+-   [Documentation](kamlo_wiki/blob/master/Documentation.md)
 
 ## E
 
--   [Erlang](blob/master/Erlang.md)
+-   [Erlang](kamlo_wiki/blob/master/Erlang.md)
 
 ## F
 
--   [Findlib](blob/master/Findlib.md)
+-   [Findlib](kamlo_wiki/blob/master/Findlib.md)
 
 ## G
 
--   [Gc](blob/master/Gc.md)
+-   [Gc](kamlo_wiki/blob/master/Gc.md)
 
 ## H
 
--   [hcgdiet](blob/master/hcgdiet.md)
+-   [hcgdiet](kamlo_wiki/blob/master/hcgdiet.md)
 
 ## I
 
--   [InfixOperators](blob/master/InfixOperators.md)
+-   [InfixOperators](kamlo_wiki/blob/master/InfixOperators.md)
 
 ## J
 
--   [JoCaml](blob/master/JoCaml.md)
+-   [JoCaml](kamlo_wiki/blob/master/JoCaml.md)
 
 ## O
 
--   [OCamlFAQ](blob/master/OCamlFAQ.md)
+-   [OCamlFAQ](kamlo_wiki/blob/master/OCamlFAQ.md)
 
--   [Ocsigen](blob/master/Ocsigen.md)
+-   [Ocsigen](kamlo_wiki/blob/master/Ocsigen.md)
 
 ## R
 
--   [RealWorld](blob/master/RealWorld.md)
+-   [RealWorld](kamlo_wiki/blob/master/RealWorld.md)
 
--   [RelatedSoftware](blob/master/RelatedSoftware.md)
+-   [RelatedSoftware](kamlo_wiki/blob/master/RelatedSoftware.md)
 
--   [Res](blob/master/Res.md)
+-   [Res](kamlo_wiki/blob/master/Res.md)
 
--   [RevisedSyntax](blob/master/RevisedSyntax.md)
+-   [RevisedSyntax](kamlo_wiki/blob/master/RevisedSyntax.md)
 
 ## S
 
--   [sqlgg](blob/master/sqlgg.md)
+-   [sqlgg](kamlo_wiki/blob/master/sqlgg.md)
 
--   [Streams](blob/master/Streams.md)
+-   [Streams](kamlo_wiki/blob/master/Streams.md)
 
 ## T
 
--   [testing-comments](blob/master/testing(2d)comments.md)
+-   [testing-comments](kamlo_wiki/blob/master/testing(2d)comments.md)
 
--   [testing-comments/Discussion](blob/master/testing(2d)comments-Discussion.md)
+-   [testing-comments/Discussion](kamlo_wiki/blob/master/testing(2d)comments-Discussion.md)
 
--   [Threads](blob/master/Threads.md)
+-   [Threads](kamlo_wiki/blob/master/Threads.md)
 
--   [Typing](blob/master/Typing.md)
+-   [Typing](kamlo_wiki/blob/master/Typing.md)
 
 ## How to use this site
 
@@ -120,19 +120,19 @@ A Wiki is a collaborative site, anyone can contribute and share:
 -   Edit any page by pressing **Edit** at the top or the bottom of the
     page
 -   Create a link to another page with joined capitalized words (like
-    [WikiSandBox](blob/master/WikiSandBox.md)) or with
+    [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md)) or with
     `[[words in brackets]]`
 -   Search for page titles or text within pages using the search box at
     the top of any page
--   See [HelpForBeginners](blob/master/HelpForBeginners.md) to get
-    you going, [HelpContents](blob/master/HelpContents.md) for all
+-   See [HelpForBeginners](kamlo_wiki/blob/master/HelpForBeginners.md) to get
+    you going, [HelpContents](kamlo_wiki/blob/master/HelpContents.md) for all
     help pages.
 
-To learn more about what a [WikiWikiWeb](blob/master/WikiWikiWeb.md)
+To learn more about what a [WikiWikiWeb](kamlo_wiki/blob/master/WikiWikiWeb.md)
 is, read about [WhyWikiWorks](http://moinmo.in/WhyWikiWorks "MoinMoin")
 and the [WikiNature](http://moinmo.in/WikiNature "MoinMoin"). Also,
 consult the
-[HelpMiscellaneous/FrequentlyAskedQuestions](blob/master/HelpMiscellaneous-FrequentlyAskedQuestions.md)
+[HelpMiscellaneous/FrequentlyAskedQuestions](kamlo_wiki/blob/master/HelpMiscellaneous-FrequentlyAskedQuestions.md)
 page.
 
 This wiki is powered by [MoinMoin](http://moinmo.in/).
