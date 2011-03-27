@@ -17,15 +17,15 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 Можете начать, например, с этих страниц:
 
--   [RecentChanges](camlunity.ru/RecentChanges.html): посмотреть
+-   [RecentChanges](blob/master/RecentChanges.md): посмотреть
     недавние изменения
--   [WikiSandBox](camlunity.ru/WikiSandBox.html): поиграться с
+-   [WikiSandBox](blob/master/WikiSandBox.md): поиграться с
     вики-разметкой
--   [FindPage](camlunity.ru/FindPage.html): найти что-нибудь в базе
+-   [FindPage](blob/master/FindPage.md): найти что-нибудь в базе
     данных
--   [HelpOnMoinWikiSyntax](camlunity.ru/HelpOnMoinWikiSyntax.html):
+-   [HelpOnMoinWikiSyntax](blob/master/HelpOnMoinWikiSyntax.md):
     подсмотреть в шпаргалку по вики-разметке
--   [SiteNavigation](camlunity.ru/SiteNavigation.html): окинуть взглядом
+-   [SiteNavigation](blob/master/SiteNavigation.md): окинуть взглядом
     сайт с высоты птичьего полёта
 
 ## Список статей (в качестве временного решения)
@@ -33,85 +33,85 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 [B](#idx-B) | [C](#idx-C) | [D](#idx-D) | [E](#idx-E) | [F](#idx-F) |
 [G](#idx-G) | [H](#idx-H) | [I](#idx-I) | [J](#idx-J) | [O](#idx-O) |
 [R](#idx-R) | [S](#idx-S) | [T](#idx-T)\
- [Include system pages](camlunity.ru/FrontPage.html?allpages=1)
+ [Include system pages](blob/master/FrontPage.md?allpages=1)
 
 ## B
 
--   [bindings](camlunity.ru/bindings.html)
+-   [bindings](blob/master/bindings.md)
 
--   [bindings/portability](camlunity.ru/bindings(2f)portability.html)
+-   [bindings/portability](blob/master/bindings-portability.md)
 
--   [bindings/tips](camlunity.ru/bindings(2f)tips.html)
+-   [bindings/tips](blob/master/bindings-tips.md)
 
 ## C
 
--   [C10K](camlunity.ru/C10K.html)
+-   [C10K](blob/master/C10K.md)
 
--   [camlp4](camlunity.ru/camlp4.html)
+-   [camlp4](blob/master/camlp4.md)
 
--   [camlp4/StreamParsers](camlunity.ru/camlp4(2f)StreamParsers.html)
+-   [camlp4/StreamParsers](blob/master/camlp4-StreamParsers.md)
 
--   [CrazyIdeas](camlunity.ru/CrazyIdeas.html)
+-   [CrazyIdeas](blob/master/CrazyIdeas.md)
 
 ## D
 
--   [Documentation](camlunity.ru/Documentation.html)
+-   [Documentation](blob/master/Documentation.md)
 
 ## E
 
--   [Erlang](camlunity.ru/Erlang.html)
+-   [Erlang](blob/master/Erlang.md)
 
 ## F
 
--   [Findlib](camlunity.ru/Findlib.html)
+-   [Findlib](blob/master/Findlib.md)
 
 ## G
 
--   [Gc](camlunity.ru/Gc.html)
+-   [Gc](blob/master/Gc.md)
 
 ## H
 
--   [hcgdiet](camlunity.ru/hcgdiet.html)
+-   [hcgdiet](blob/master/hcgdiet.md)
 
 ## I
 
--   [InfixOperators](camlunity.ru/InfixOperators.html)
+-   [InfixOperators](blob/master/InfixOperators.md)
 
 ## J
 
--   [JoCaml](camlunity.ru/JoCaml.html)
+-   [JoCaml](blob/master/JoCaml.md)
 
 ## O
 
--   [OCamlFAQ](camlunity.ru/OCamlFAQ.html)
+-   [OCamlFAQ](blob/master/OCamlFAQ.md)
 
--   [Ocsigen](camlunity.ru/Ocsigen.html)
+-   [Ocsigen](blob/master/Ocsigen.md)
 
 ## R
 
--   [RealWorld](camlunity.ru/RealWorld.html)
+-   [RealWorld](blob/master/RealWorld.md)
 
--   [RelatedSoftware](camlunity.ru/RelatedSoftware.html)
+-   [RelatedSoftware](blob/master/RelatedSoftware.md)
 
--   [Res](camlunity.ru/Res.html)
+-   [Res](blob/master/Res.md)
 
--   [RevisedSyntax](camlunity.ru/RevisedSyntax.html)
+-   [RevisedSyntax](blob/master/RevisedSyntax.md)
 
 ## S
 
--   [sqlgg](camlunity.ru/sqlgg.html)
+-   [sqlgg](blob/master/sqlgg.md)
 
--   [Streams](camlunity.ru/Streams.html)
+-   [Streams](blob/master/Streams.md)
 
 ## T
 
--   [testing-comments](camlunity.ru/testing(2d)comments.html)
+-   [testing-comments](blob/master/testing(2d)comments.md)
 
--   [testing-comments/Discussion](camlunity.ru/testing(2d)comments(2f)Discussion.html)
+-   [testing-comments/Discussion](blob/master/testing(2d)comments-Discussion.md)
 
--   [Threads](camlunity.ru/Threads.html)
+-   [Threads](blob/master/Threads.md)
 
--   [Typing](camlunity.ru/Typing.html)
+-   [Typing](blob/master/Typing.md)
 
 ## How to use this site
 
@@ -120,19 +120,19 @@ A Wiki is a collaborative site, anyone can contribute and share:
 -   Edit any page by pressing **Edit** at the top or the bottom of the
     page
 -   Create a link to another page with joined capitalized words (like
-    [WikiSandBox](camlunity.ru/WikiSandBox.html)) or with
+    [WikiSandBox](blob/master/WikiSandBox.md)) or with
     `[[words in brackets]]`
 -   Search for page titles or text within pages using the search box at
     the top of any page
--   See [HelpForBeginners](camlunity.ru/HelpForBeginners.html) to get
-    you going, [HelpContents](camlunity.ru/HelpContents.html) for all
+-   See [HelpForBeginners](blob/master/HelpForBeginners.md) to get
+    you going, [HelpContents](blob/master/HelpContents.md) for all
     help pages.
 
-To learn more about what a [WikiWikiWeb](camlunity.ru/WikiWikiWeb.html)
+To learn more about what a [WikiWikiWeb](blob/master/WikiWikiWeb.md)
 is, read about [WhyWikiWorks](http://moinmo.in/WhyWikiWorks "MoinMoin")
 and the [WikiNature](http://moinmo.in/WikiNature "MoinMoin"). Also,
 consult the
-[HelpMiscellaneous/FrequentlyAskedQuestions](camlunity.ru/HelpMiscellaneous(2f)FrequentlyAskedQuestions.html)
+[HelpMiscellaneous/FrequentlyAskedQuestions](blob/master/HelpMiscellaneous-FrequentlyAskedQuestions.md)
 page.
 
 This wiki is powered by [MoinMoin](http://moinmo.in/).
