@@ -1,11 +1,3 @@
-![image](logo.png)
--   bindings/tips
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Вспомогательные хитрости для описания биндингов к C функциям
@@ -59,7 +51,7 @@
       O_WRONLY,
       O_RDWR
     };
-      
+
     static int myflags(value flags) {
        return caml_conver_flag_list(flags, tbl_flags));
     }

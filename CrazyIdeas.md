@@ -1,11 +1,3 @@
-![image](logo.png)
--   CrazyIdeas
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Свалка идей. Возможно фантастических. Возможно реальных.
@@ -22,7 +14,7 @@
 
 При первом проходе - синтаксически заменять все `print expr` на
 `let _x = expr in ()` и после компиляции смотреть тип expr через дамп
-[TypedTree](camlunity.ru/TypedTree.html) или через -annot. При втором
+[TypedTree](kamlo_wiki/blob/master/TypedTree.md) или через -annot. При втором
 проходе используя информацию о типах синтаксически собирать принтер
 всего выражения из принтеров составных частей (которые определены для
 примитивных типов и типов из stdlib) и подставлять этот конкретный
@@ -65,7 +57,7 @@ stdlib).
 -   только для IO?
 -   исключения
 -   вообще возможно ли это только на уровне синтаксиса?
--   а не повторение [lwt](camlunity.ru/lwt.html) ли это?
+-   а не повторение [lwt](kamlo_wiki/blob/master/lwt.md) ли это?
 
 ## нотификация о перемещении для custom\_val
 

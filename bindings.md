@@ -1,15 +1,7 @@
-![image](logo.png)
--   bindings
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
   -------------------------------------------------------------------------------------------------------
-  [/portability](camlunity.ru/bindings(2f)portability.html) [/tips](camlunity.ru/bindings(2f)tips.html)
+  [/portability](kamlo_wiki/blob/master/bindings-portability.md) [/tips](kamlo_wiki/blob/master/bindings-tips.md)
   -------------------------------------------------------------------------------------------------------
 
 Перед тем как писать сишные биндинги :

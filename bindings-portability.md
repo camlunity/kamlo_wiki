@@ -1,15 +1,7 @@
-![image](logo.png)
--   bindings/portability
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 best practices как писать либу с [сишными
-биндингами](camlunity.ru/bindings.html) чтобы она с минимумом проблем
+биндингами](kamlo_wiki/blob/master/bindings.md) чтобы она с минимумом проблем
 собиралась на всех инкарнациях камля.
 
 Scope: ocaml утилиты, сишный код, утилиты для
@@ -76,7 +68,7 @@ myocamlbuild.ml:
       [link_stubs name ?cclib stubs] embeds options into ocaml library [name] so that
       further linking with main program will find C [stubs] library
       @param name ocaml library name
-      @param stubs C stubs module name 
+      @param stubs C stubs module name
       @param cclib extra -cclib options to pass to linker
     *)
     let link_stubs name ?(cclib=[]) stubs =

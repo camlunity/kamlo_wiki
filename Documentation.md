@@ -1,11 +1,3 @@
-![image](logo.png)
--   Documentation
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 # Как сгенерировать документацию, которую нигде не найдешь
@@ -13,7 +5,7 @@
 Ниже описано, каким способом была сгенерирована документация к camlp4 и
 ocamlbuild, доступная на сайте camlunity.ru. Предполагается, что в
 каталоге ocaml-3.12 лежат исходники камля, и вы уже выполняли make
-workd.
+world.
 
 ## Документация к Camlp4
 

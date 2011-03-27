@@ -1,15 +1,7 @@
-![image](logo.png)
--   camlp4
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
   -------------------------------------------------------------
-  [/StreamParsers](camlunity.ru/camlp4(2f)StreamParsers.html)
+  [/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
   -------------------------------------------------------------
 
 Тут -- информация про camlp4, синтаксический препроцессор.
@@ -50,7 +42,7 @@ Tip: (только при чём тут camlp4?)
 ### Quotation'ы
 
 Quotation'ы всегда пишите в [revised
-синтаксисе](camlunity.ru/RevisedSyntax.html), иначе могут вылезти
+синтаксисе](kamlo_wiki/blob/master/RevisedSyntax.md), иначе могут вылезти
 трудноуловимые неочевидные косяки (или баги в самом camlp4), основной
 код расширения можно писать и в original. См. например
 [PR\#5231](http://caml.inria.fr/mantis/view.php?id=5231)
@@ -84,7 +76,7 @@ DEFINE, IFDEF, etc
 ### Дамп кода в виде AST
 
     $ echo 'let a = 2' > q.ml
-    $ camlp4o -filter Camlp4AstLifter q.ml 
+    $ camlp4o -filter Camlp4AstLifter q.ml
     let loc = Loc.ghost
     in
       Ast.StVal (loc, Ast.BFalse,
