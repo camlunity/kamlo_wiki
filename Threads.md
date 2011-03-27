@@ -1,11 +1,3 @@
-![image](logo.png)
--   Threads
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 todo: описать, как обстоят дела с потоками(тредами) в окамле.

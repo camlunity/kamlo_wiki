@@ -1,11 +1,3 @@
-![image](logo.png)
--   Erlang
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Здесь написано как писать драйвера для erlang'а на камле.

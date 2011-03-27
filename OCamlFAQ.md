@@ -1,11 +1,3 @@
-![image](logo.png)
--   OCamlFAQ
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 # Англоязычные ресурсы

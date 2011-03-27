@@ -1,11 +1,3 @@
-![image](logo.png)
--   Findlib
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Findlib -

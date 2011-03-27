@@ -1,11 +1,3 @@
-![image](logo.png)
--   JoCaml
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 [JoCaml](http://jocaml.inria.fr) это диалект OCaml с встроенными в язык

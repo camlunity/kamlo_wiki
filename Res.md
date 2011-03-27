@@ -1,11 +1,3 @@
-![image](logo.png)
--   Res
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Res -- так я называю аналог "error monad".

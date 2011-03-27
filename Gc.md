@@ -1,11 +1,3 @@
-![image](logo.png)
--   Gc
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 ## Устройство

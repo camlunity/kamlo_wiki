@@ -1,11 +1,3 @@
-![image](logo.png)
--   Ocsigen
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 # Ocsigen

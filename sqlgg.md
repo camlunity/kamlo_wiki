@@ -1,11 +1,3 @@
-![image](logo.png)
--   sqlgg
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 # sqlgg
@@ -47,7 +39,7 @@ OCaml), с проверкой корректности типов во врем�
 Код на OCaml, который будет использовать это:
     open Sqlite3
 
-    module Sql = Test_sql.Make(Sqlgg_sqlite3) 
+    module Sql = Test_sql.Make(Sqlgg_sqlite3)
     (* Sqlgg_sqlite3 это один из модулей реализующий собственно код доступа к БД *)
 
     let () =

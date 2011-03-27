@@ -1,11 +1,3 @@
-![image](logo.png)
--   RelatedSoftware
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Тут находятся ссылки на софт, к которому мы имеем отношение, и который

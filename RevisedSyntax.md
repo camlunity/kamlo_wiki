@@ -1,11 +1,3 @@
-![image](logo.png)
--   RevisedSyntax
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
 * * * * *
 
 Revised syntax – альтернатива классическому original syntax в OCaml. Он
