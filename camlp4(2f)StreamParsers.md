@@ -1,13 +1,3 @@
-![image](logo.png)
--   camlp4/StreamParsers
-
-\
-\
- [[LanguageSetup](LanguageSetup.html)] [[TitleIndex](TitleIndex.html)]
-[[WordIndex](WordIndex.html)]
-
-* * * * *
-
 # Stream Parsers
 
 Первое расширение, предоставляемое Camlp4, – это потоки и парсеры. Поток
