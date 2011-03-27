@@ -17,23 +17,14 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 Можете начать, например, с этих страниц:
 
--   [RecentChanges](kamlo_wiki/blob/master/RecentChanges.md): посмотреть
-    недавние изменения
--   [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md): поиграться с
-    вики-разметкой
--   [FindPage](kamlo_wiki/blob/master/FindPage.md): найти что-нибудь в базе
-    данных
--   [HelpOnMoinWikiSyntax](kamlo_wiki/blob/master/HelpOnMoinWikiSyntax.md):
-    подсмотреть в шпаргалку по вики-разметке
--   [SiteNavigation](kamlo_wiki/blob/master/SiteNavigation.md): окинуть взглядом
-    сайт с высоты птичьего полёта
+-   [RecentChanges](kamlo_wiki/commits/master): посмотреть недавние изменения
+-   [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md): поиграться c викой
 
 ## Список статей (в качестве временного решения)
 
 [B](#idx-B) | [C](#idx-C) | [D](#idx-D) | [E](#idx-E) | [F](#idx-F) |
 [G](#idx-G) | [H](#idx-H) | [I](#idx-I) | [J](#idx-J) | [O](#idx-O) |
-[R](#idx-R) | [S](#idx-S) | [T](#idx-T)\
- [Include system pages](kamlo_wiki/blob/master/FrontPage.md?allpages=1)
+[R](#idx-R) | [S](#idx-S) | [T](#idx-T)
 
 ## B
 
@@ -115,27 +106,9 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 ## How to use this site
 
-A Wiki is a collaborative site, anyone can contribute and share:
+We use [markdown](http://daringfireball.net/projects/markdown/syntax) for formatting our articles.
 
--   Edit any page by pressing **Edit** at the top or the bottom of the
-    page
--   Create a link to another page with joined capitalized words (like
-    [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md)) or with
-    `[[words in brackets]]`
--   Search for page titles or text within pages using the search box at
-    the top of any page
--   See [HelpForBeginners](kamlo_wiki/blob/master/HelpForBeginners.md) to get
-    you going, [HelpContents](kamlo_wiki/blob/master/HelpContents.md) for all
-    help pages.
-
-To learn more about what a [WikiWikiWeb](kamlo_wiki/blob/master/WikiWikiWeb.md)
-is, read about [WhyWikiWorks](http://moinmo.in/WhyWikiWorks "MoinMoin")
-and the [WikiNature](http://moinmo.in/WikiNature "MoinMoin"). Also,
-consult the
-[HelpMiscellaneous/FrequentlyAskedQuestions](kamlo_wiki/blob/master/HelpMiscellaneous-FrequentlyAskedQuestions.md)
-page.
-
-This wiki is powered by [MoinMoin](http://moinmo.in/).
+-   To edit any page in-place, pressing **Edit This File** at the right top of the page
 
 * * * * *
 
