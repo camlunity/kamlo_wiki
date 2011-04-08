@@ -22,10 +22,6 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 ## Список статей (в качестве временного решения)
 
-[B](#idx-B) | [C](#idx-C) | [D](#idx-D) | [E](#idx-E) | [F](#idx-F) |
-[G](#idx-G) | [H](#idx-H) | [I](#idx-I) | [J](#idx-J) | [O](#idx-O) |
-[R](#idx-R) | [S](#idx-S) | [T](#idx-T)
-
 ## B
 
 -   [bindings](kamlo_wiki/blob/master/bindings.md)
@@ -59,10 +55,6 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 ## G
 
 -   [Gc](kamlo_wiki/blob/master/Gc.md)
-
-## H
-
--   [hcgdiet](kamlo_wiki/blob/master/hcgdiet.md)
 
 ## I
 
