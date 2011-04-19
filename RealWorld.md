@@ -19,6 +19,7 @@
 * [Frama-C](http://frama-c.com/) -- source-code analysis platform for C software
 * [CIL](http://cil.sourceforge.net/)-- program analysis and transformation frontend for C language
 * [pfff](https://github.com/facebook/pfff/wiki/Main) -- code analysis and refactoring tool
+* [HaXe](http://haxe.org/) -- multiplatform (JS/Flash/PHP/C++) language
 
 # Commercial users
 * [Citrix](http://wiki.xensource.com/xenwiki/XAPI_Developer_Guide) -- Xen virtualization technology API
