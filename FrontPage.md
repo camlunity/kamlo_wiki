@@ -20,6 +20,29 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 -   [RecentChanges](kamlo_wiki/commits/master): посмотреть недавние изменения
 -   [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md): поиграться c викой
 
+## Как пользоваться викой
+
+Для разметки страниц мы используем [markdown](http://daringfireball.net/projects/markdown/syntax).
+
+-   Для того, чтобы редактировать страницы с веба, необходимо:
+  - иметь аккаунт на [github](https://github.com/signup/free)
+  - состоять в [camlunity](https://github.com/camlunity)
+  - [залогиниться](https://github.com/login)
+  - выбрать интересующую статью
+  - справа от пути к файлу найти кнопку "Edit this file" и нажать на неё
+  - отредактировать статью
+  - сообщить commit сообщение
+  - нажать commit changes 
+  - посмотреть на результаты
+
+- Для редактирования страниц с помощью git'а необходимо:
+  - быть членом camlunity
+  - склонировать репозиторий к себе с помощью одного из url'ов
+  - отредактировать нужную страницу любым удобным образом
+  - закоммитить изменения (например, git ci path/to/artcile.md)
+  - отправить изменения на сервер (например, git push origin HEAD)
+
+
 ## Список статей (в качестве временного решения)
 
 ## B
@@ -95,12 +118,6 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 -   [Threads](kamlo_wiki/blob/master/Threads.md)
 
 -   [Typing](kamlo_wiki/blob/master/Typing.md)
-
-## How to use this site
-
-We use [markdown](http://daringfireball.net/projects/markdown/syntax) for formatting our articles.
-
--   To edit any page in-place, pressing **Edit This File** at the right top of the page
 
 * * * * *
 
