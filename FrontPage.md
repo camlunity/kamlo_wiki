@@ -49,9 +49,9 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 -   [bindings](kamlo_wiki/blob/master/bindings.md)
 
--   [bindings/portability](kamlo_wiki/blob/master/bindings-portability.md)
+  -   [bindings/portability](kamlo_wiki/blob/master/bindings-portability.md)
 
--   [bindings/tips](kamlo_wiki/blob/master/bindings-tips.md)
+  -   [bindings/tips](kamlo_wiki/blob/master/bindings-tips.md)
 
 ## C
 
@@ -59,7 +59,7 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 -   [camlp4](kamlo_wiki/blob/master/camlp4.md)
 
--   [camlp4/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
+  -   [camlp4/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
 
 -   [CrazyIdeas](kamlo_wiki/blob/master/CrazyIdeas.md)
 
