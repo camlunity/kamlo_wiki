@@ -47,77 +47,77 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 ## B
 
--   [bindings](kamlo_wiki/blob/master/bindings.md)
+-   [bindings](https://github.com/camlunity/kamlo_wiki/blob/master/bindings.md)
 
-  -   [bindings/portability](kamlo_wiki/blob/master/bindings-portability.md)
+  -   [bindings/portability](https://github.com/camlunity/kamlo_wiki/blob/master/bindings-portability.md)
 
-  -   [bindings/tips](kamlo_wiki/blob/master/bindings-tips.md)
+  -   [bindings/tips](https://github.com/camlunity/kamlo_wiki/blob/master/bindings-tips.md)
 
 ## C
 
--   [C10K](kamlo_wiki/blob/master/C10K.md)
+-   [C10K](https://github.com/camlunity/kamlo_wiki/blob/master/C10K.md)
 
--   [camlp4](kamlo_wiki/blob/master/camlp4.md)
+-   [camlp4](https://github.com/camlunity/kamlo_wiki/blob/master/camlp4.md)
 
-  -   [camlp4/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
+  -   [camlp4/StreamParsers](https://github.com/camlunity/kamlo_wiki/blob/master/camlp4-StreamParsers.md)
 
--   [CrazyIdeas](kamlo_wiki/blob/master/CrazyIdeas.md)
+-   [CrazyIdeas](https://github.com/camlunity/kamlo_wiki/blob/master/CrazyIdeas.md)
 
 ## D
 
--   [Documentation](kamlo_wiki/blob/master/Documentation.md)
+-   [Documentation](https://github.com/camlunity/kamlo_wiki/blob/master/Documentation.md)
 
 ## E
 
--   [Erlang](kamlo_wiki/blob/master/Erlang.md)
+-   [Erlang](https://github.com/camlunity/kamlo_wiki/blob/master/Erlang.md)
 
 ## F
 
--   [Findlib](kamlo_wiki/blob/master/Findlib.md)
+-   [Findlib](https://github.com/camlunity/kamlo_wiki/blob/master/Findlib.md)
 
 ## G
 
--   [Gc](kamlo_wiki/blob/master/Gc.md)
+-   [Gc](https://github.com/camlunity/kamlo_wiki/blob/master/Gc.md)
 
 ## I
 
--   [InfixOperators](kamlo_wiki/blob/master/InfixOperators.md)
+-   [InfixOperators](https://github.com/camlunity/kamlo_wiki/blob/master/InfixOperators.md)
 
 ## J
 
--   [JoCaml](kamlo_wiki/blob/master/JoCaml.md)
+-   [JoCaml](https://github.com/camlunity/kamlo_wiki/blob/master/JoCaml.md)
 
 ## O
 
--   [OCamlFAQ](kamlo_wiki/blob/master/OCamlFAQ.md)
+-   [OCamlFAQ](https://github.com/camlunity/kamlo_wiki/blob/master/OCamlFAQ.md)
 
--   [Ocsigen](kamlo_wiki/blob/master/Ocsigen.md)
+-   [Ocsigen](https://github.com/camlunity/kamlo_wiki/blob/master/Ocsigen.md)
 
 ## R
 
--   [RealWorld](kamlo_wiki/blob/master/RealWorld.md)
+-   [RealWorld](https://github.com/camlunity/kamlo_wiki/blob/master/RealWorld.md)
 
--   [RelatedSoftware](kamlo_wiki/blob/master/RelatedSoftware.md)
+-   [RelatedSoftware](https://github.com/camlunity/kamlo_wiki/blob/master/RelatedSoftware.md)
 
--   [Res](kamlo_wiki/blob/master/Res.md)
+-   [Res](https://github.com/camlunity/kamlo_wiki/blob/master/Res.md)
 
--   [RevisedSyntax](kamlo_wiki/blob/master/RevisedSyntax.md)
+-   [RevisedSyntax](https://github.com/camlunity/kamlo_wiki/blob/master/RevisedSyntax.md)
 
 ## S
 
--   [sqlgg](kamlo_wiki/blob/master/sqlgg.md)
+-   [sqlgg](https://github.com/camlunity/kamlo_wiki/blob/master/sqlgg.md)
 
--   [Streams](kamlo_wiki/blob/master/Streams.md)
+-   [Streams](https://github.com/camlunity/kamlo_wiki/blob/master/Streams.md)
 
 ## T
 
--   [testing-comments](kamlo_wiki/blob/master/testing(2d)comments.md)
+-   [testing-comments](https://github.com/camlunity/kamlo_wiki/blob/master/testing(2d)comments.md)
 
--   [testing-comments/Discussion](kamlo_wiki/blob/master/testing(2d)comments-Discussion.md)
+-   [testing-comments/Discussion](https://github.com/camlunity/kamlo_wiki/blob/master/testing(2d)comments-Discussion.md)
 
--   [Threads](kamlo_wiki/blob/master/Threads.md)
+-   [Threads](https://github.com/camlunity/kamlo_wiki/blob/master/Threads.md)
 
--   [Typing](kamlo_wiki/blob/master/Typing.md)
+-   [Typing](https://github.com/camlunity/kamlo_wiki/blob/master/Typing.md)
 
 * * * * *
 
