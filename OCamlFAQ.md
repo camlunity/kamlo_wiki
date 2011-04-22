@@ -29,6 +29,7 @@
     Caml](http://caml.inria.fr/pub/docs/oreilly-book/)
 -   [Unix system programming in Objective Caml by Xavier Leroy and
     Didier Rémy](http://ocamlunix.forge.ocamlcore.org/)
+-   [How to Think Like a Computer Scientist by Nicholas Monje and Allen Downey](http://thinkocaml.com/)
 
 # Коаны
 

@@ -23,7 +23,7 @@
 
 TODO
 
-[http://www.linux-nantes.org/\~fmonnier/OCaml/ocaml-wrapping-c.php](http://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.php)
+[http://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.php](http://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.php)
 
 [http://camltastic.blogspot.com/2008/08/tip-calling-c-functions-directly-with.html](http://camltastic.blogspot.com/2008/08/tip-calling-c-functions-directly-with.html)
 
