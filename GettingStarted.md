@@ -10,6 +10,7 @@ Getting Started
 предыдущая версия -- 3.11; устранить это досадное недоразумении можно подключив
 репозиторий [Debian OCaml Task Force](http://wiki.debian.org/Teams/OCamlTaskForce):
 
+    $ apt-key adv --keyserver pgp.surfnet.nl --recv 49881AD3
     $ gpg -a --export 49881AD3 | sudo apt-key add -
     OK
     $ sudo tee -a /etc/apt/sources.list > /dev/null
