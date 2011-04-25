@@ -35,6 +35,7 @@
 
 -   [http://web.archive.org/web/20031105005932/www.bagley.org/\~doug/ocaml/Notes/okoans.shtml](http://web.archive.org/web/20031105005932/www.bagley.org/~doug/ocaml/Notes/okoans.shtml)
 -   [http://eigenclass.org/hiki/fp-ocaml-koans](http://eigenclass.org/hiki/fp-ocaml-koans)
+-   [http://gds.livejournal.com/35502.html](http://gds.livejournal.com/35502.html)
 
 # Местное
 
