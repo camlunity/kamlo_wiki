@@ -22,7 +22,7 @@ Getting Started
 
 Теперь можно поставить минимально-необходимый набор пакетов:
 
-    $ sudo aptitude install ocaml ocaml-findlib oasis3
+    $ sudo aptitude install ocaml ocaml-findlib oasis
 
 Дописать:
 
