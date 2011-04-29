@@ -20,8 +20,9 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 -   [RecentChanges](kamlo_wiki/commits/master): посмотреть недавние изменения
 -   [WikiSandBox](kamlo_wiki/blob/master/WikiSandBox.md): поиграться c викой
 
-   Q: what is camlunity?
-   A: a secret cabal, dedicated to camlunism
+
+> Q: what is camlunity?
+> A: a secret cabal, dedicated to camlunism
 
 
 ## Как пользоваться викой
