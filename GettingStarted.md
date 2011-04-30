@@ -98,4 +98,63 @@ Hello world!
 Азы Оазиса
 ----------
 
-Для того, чтобы 
+Однако, окамл -- не скриптовый язык, и проводить всё время в репле не круто. Надо и программы писать,
+а затем и собирать их! Для этого лучше всего воспользоваться [оазисом](http://oasis.forge.ocamlcore.org/index.php).
+Оазис определяет единый формат метаинформации о пакете и единое средство установки -- `ocaml setup.ml -configure`, `ocaml setup.ml -build`, `ocaml setup.ml -install`. 
+После его установки тебе должна быть доступна команда oasis
+
+    oasis 
+    E: No subcommand defined, call 'oasis -help' for help
+
+Создай директорию для своего проекта. Рекомендуемая структура: `./src` -- директория для исходников, `./tests` -- директория для тестов. Самое время для оазиса, запусти `oasis quickstart` -- команду, которая создаст для тебя центральный в экосистеме оазиса файл _oasis. `quickstart` предложит ответить на несколько общих вопросов: название проекта, краткое описание, авторы и т.д. Последним будет вопрос про плагины:
+
+  * DevFiles -- добавит привычные для unix-мира Makefile и configure -- которые будут вызывать команды оазиса
+  * META -- поддержка ocamlfind, должен быть выбран, если вы пишите библиотеку, которая предполагает установку!
+  * StdFiles -- сгенерирует файлы AUTHORS.txt, README.txt, INSTALL.txt -- полезно, особенно INSTALL.txt
+
+Если ты ошибся -- ничего страшного, результирующий файл _oasis можно затем легко поправить руками. 
+После общей информации можно создать запускаемый_файл/библиотику/документ и т.д. Начнём с исполняемого файла.
+
+  * executable name -- имя результирующего исходника, скажем test
+  * path -- путь, где лежат (или будут лежать) твои файлы (src)
+  * MainIs -- файл, считающийся основным, точкой входа (main.ml)
+
+На этом предлагаю остановиться (выбрать n) и записать полученный файл (w). В результате твой _oasis выглядит как-то так:
+
+    OASISFormat: 0.2
+    Name:        test
+    Version:     0.0.1
+    Synopsis:    test
+    Authors:     Xavier
+    License:     CC0
+    Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+
+    Executable test
+      Path:       src
+      BuildTools: ocamlbuild
+      MainIs:     main.ml
+
+Команда `oasis setup` прочитает этот файл и создаст необходимую инфраструктуру для сборки и распространения проекта.
+    
+    I: File AUTHORS.txt doesn't exist, creating it.
+    I: File INSTALL.txt doesn't exist, creating it.
+    I: File Makefile doesn't exist, creating it.
+    I: File README.txt doesn't exist, creating it.
+    I: File _tags doesn't exist, creating it.
+    I: File configure doesn't exist, creating it.
+    I: File myocamlbuild.ml doesn't exist, creating it.
+    I: File setup.ml doesn't exist, creating it.
+
+Теперь командами `ocaml setup.ml -configure|-build` сожно конфигурировать/собирать проект.
+
+Если ты пишешь библиотеку, то вместо секции Executable у тебя будет секция Library с примерно таким содержимым:
+
+    Library libka
+      Path:            src
+      Modules:         Libka
+      InternalModules: Util
+      BuildDepends:    unix, camlp4
+      NativeOpt:       -w @a
+      ByteOpt:         -w @a
+
+Поля BuildDepends, NativeOpt и ByteOpt ты можешь также использовать и при создании исполняемого файла. Они означают, соответственно: пакеты, от которых зависит твой проект; [опции компилятора](http://caml.inria.fr/pub/docs/manual-ocaml/manual025.html#toc100) в нативный код; [опции компилятора](http://caml.inria.fr/pub/docs/manual-ocaml/manual022.html#toc86) в байткод. Здесь мы включаем все предупреждения как ошибки.
