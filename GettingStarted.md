@@ -154,7 +154,7 @@ Hello world!
       Modules:         Libka
       InternalModules: Util
       BuildDepends:    unix, camlp4
-      NativeOpt:       -w @a
-      ByteOpt:         -w @a
+      NativeOpt:       -w A
+      ByteOpt:         -w A
 
 Поля BuildDepends, NativeOpt и ByteOpt ты можешь также использовать и при создании исполняемого файла. Они означают, соответственно: пакеты, от которых зависит твой проект; [опции компилятора](http://caml.inria.fr/pub/docs/manual-ocaml/manual025.html#toc100) в нативный код; [опции компилятора](http://caml.inria.fr/pub/docs/manual-ocaml/manual022.html#toc86) в байткод. Здесь мы включаем все предупреждения как ошибки.
