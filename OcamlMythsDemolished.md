@@ -13,7 +13,7 @@ OCaml Myths Demolished
 Мифы
 ----
 
-  * OCaml никто не использует (см. [RealWorld](kamlo_wiki/blob/master/RealWorld.md) )
+  * OCaml никто не использует (см. [RealWorld](https://github.com/camlunity/kamlo_wiki/blob/master/RealWorld.md) )
 
   * Для OCaml'а нет библиотек
 
