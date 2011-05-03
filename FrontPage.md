@@ -38,7 +38,7 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
   - справа от пути к файлу найти кнопку "Edit this file" и нажать на неё
   - отредактировать статью
   - кратко описать изменения в commit сообщении
-  - нажать commit changes 
+  - нажать commit changes
   - посмотреть на результаты
   - повторить
 
@@ -99,6 +99,8 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 -   [OCamlFAQ](https://github.com/camlunity/kamlo_wiki/blob/master/OCamlFAQ.md)
 
 -   [Ocsigen](https://github.com/camlunity/kamlo_wiki/blob/master/Ocsigen.md)
+
+-   [OcamlMythsDemolished](https://github.com/camlunity/kamlo_wiki/blob/master/OcamlMythsDemolished.md)
 
 ## R
 
