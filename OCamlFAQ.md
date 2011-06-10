@@ -30,6 +30,7 @@
 -   [Unix system programming in Objective Caml by Xavier Leroy and
     Didier Rémy](http://ocamlunix.forge.ocamlcore.org/)
 -   [How to Think Like a Computer Scientist by Nicholas Monje and Allen Downey](http://thinkocaml.com/)
+-   [Crash course on Caml and type systems] Xavier Leroy (скорее на французском, чем на английском)
 
 # Коаны
 
