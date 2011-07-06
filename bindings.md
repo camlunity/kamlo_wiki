@@ -27,9 +27,9 @@ TODO
 
 [http://camltastic.blogspot.com/2008/08/tip-calling-c-functions-directly-with.html](http://camltastic.blogspot.com/2008/08/tip-calling-c-functions-directly-with.html)
 
-[http://caml.inria.fr/pub/ml-archives/caml-list/2006/05/097f63cfb39a80418f95c70c3c520aa8.en.html](http://caml.inria.fr/pub/ml-archives/caml-list/2006/05/097f63cfb39a80418f95c70c3c520aa8.en.html)
+[caml-list 2006/05 Hendrik Tews : catch / reraise exceptions in C, representation of exceptions](http://caml.inria.fr/pub/ml-archives/caml-list/2006/05/097f63cfb39a80418f95c70c3c520aa8.en.html)
 
-[http://caml.inria.fr/pub/ml-archives/caml-list/2004/08/4ca580b6c311ce8b39cd685f81cecfac.en.html](http://caml.inria.fr/pub/ml-archives/caml-list/2004/08/4ca580b6c311ce8b39cd685f81cecfac.en.html)
+[caml-list 2004/08 Markus Mottl : "noalloc" + enter/leave blocking section - safe?](http://caml.inria.fr/pub/ml-archives/caml-list/2004/08/4ca580b6c311ce8b39cd685f81cecfac.en.html)
 
 [http://rwmj.wordpress.com/2009/08/04/ocaml-internals/](http://rwmj.wordpress.com/2009/08/04/ocaml-internals/)
 
