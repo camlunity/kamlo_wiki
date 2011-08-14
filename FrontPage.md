@@ -126,8 +126,8 @@ KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
 
 -   [Threads](https://github.com/camlunity/kamlo_wiki/blob/master/Threads.md)
 
+-   [ToolForTheJob](https://github.com/camlunity/kamlo_wiki/blob/master/ToolForTheJob.md)
+
 -   [Typing](https://github.com/camlunity/kamlo_wiki/blob/master/Typing.md)
 
 * * * * *
-
-2011-03-26 13:08
