@@ -657,7 +657,7 @@ patterns". Сопоставление значений таким паттерн
        </td>
           <td>
 
-          type t = (Set.Make M).t;
+            type t = (Set.Make M).t;
 
        </td>
       </tr>
