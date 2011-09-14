@@ -20,14 +20,14 @@ Revised syntax – альтернатива классическому original 
     #
 
 При компиляции вызовом ocamlc, ocamlopt или ocamlfind – добавьте
-`-pp camlp4r`{.backtick} в строку компиляции:
+`-pp camlp4r` в строку компиляции:
     $ ocamlfind ocamlopt -pp camlp4r mymodule.ml -o myexecutable
 
-При компиляции через ocamlbuild добавьте в файл `_tags`{.backtick} тэг
-`camlp4r`{.backtick} для файлов, написанных в revised syntax, например,
+При компиляции через ocamlbuild добавьте в файл `_tags` тэг
+`camlp4r` для файлов, написанных в revised syntax, например,
     <*.ml*> : camlp4r
 
-Однако если добавлять тэг для всех `*.ml*`{.backtick}, а в проекте есть
+Однако если добавлять тэг для всех `*.ml*`, а в проекте есть
 .ml-файлы, сгенерированные ocamllex/ocamlyacc (в original syntax), нужно
 будет исключить их:
     <mylexer.ml> | <myparser.ml{,i}> : -camlp4r, camlp4o
@@ -39,56 +39,140 @@ Revised syntax – альтернатива классическому original 
     и точка с запятой в конце фразы не будет перепутана с точкой с
     запятой, разделяющей последовательность операторов.
 -   Объявление глобального значения производится ключевым словом
-    `value`{.backtick}. Слово `let`{.backtick} зарезервировано
-    исключительно для конструкции `let..in`{.backtick}:
+    `value`. Слово `let` зарезервировано
+    исключительно для конструкции `let..in`:
 
-OCaml
-Revised
-`let x = 23;;`{.backtick}
-`value x = 23;`{.backtick}
-`let x = 23 in x + 7;;`{.backtick}
-`let x = 23 in x + 7;`{.backtick}
--   В интерфейсах модулей вместо `val`{.backtick} следует использовать
-    тоже `value`{.backtick}.
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`val x : int;;`{.backtick}
-`value x : int;`{.backtick}
+          let x = 23;;
+
+      </td>
+          <td>
+
+          let x = 23 in x + 7;;
+
+      </td>
+      </tr>
+      <tr>
+          <td>
+
+          value x = 23;
+
+      </td>
+          <td>
+
+          let x = 23 in x + 7;
+
+      </td>
+      </tr>
+    </table>
+
+
+-   В интерфейсах модулей вместо `val` следует использовать
+    тоже `value`.
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          val x : int;;
+
+       </td>
+          <td>
+
+          value x : int;
+
+       </td>
+      </tr>
+    </table>
 
 # Императивные конструкции
 
 -   Появился ещё один способ определить последовательность операторов:
-    за ключевым словом `do`{.backtick} следует последовательность
-    операторов, разделённых `;`{.backtick}, окружённая `{`{.backtick} и
-    `}`{.backtick} (допускается `;`{.backtick} после последнего
+    за ключевым словом `do` следует последовательность
+    операторов, разделённых `;`, окружённая `{` и
+    `}` (допускается `;` после последнего
     оператора).
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`e1; e2; e3; e4`{.backtick}
-`do { e1; e2; e3; e4 }`{.backtick}
--   Тело `for`{.backtick} и `while`{.backtick} может быть оформлено с
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          e1; e2; e3; e4
+
+       </td>
+          <td>
+
+            do { e1; e2; e3; e4 }
+
+       </td>
+      </tr>
+    </table>
+
+-   Тело `for` и `while` может быть оформлено с
     тем же синтаксисом:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`while e1 do`{.backtick} \
- `e2; e3; e4`{.backtick} \
- `done`{.backtick}
-`while e1 do {`{.backtick} \
- `e2; e3; e4`{.backtick} \
- `}`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          while e1 do
+          e2; e3; e4
+          done
+
+       </td>
+          <td>
+
+            while e1 do {
+            e2; e3; e4
+            }
+
+       </td>
+      </tr>
+    </table>
 
 # Туплы и списки
 
 -   Скобки обязательны в туплах:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`1, "hello", World`{.backtick}
-`(1, "hello", World)`{.backtick}
--   Списки всегда окружены `[`{.backtick} и `]`{.backtick}. Их
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          1, "hello", World
+
+       </td>
+          <td>
+
+            (1, "hello", World)`
+
+       </td>
+      </tr>
+    </table>
+
+-   Списки всегда окружены `[` и `]`. Их
     синтаксис:
 
     list      ::= [ elem-list opt-cons ]
@@ -96,19 +180,65 @@ Revised
     opt-cons  ::= :: expression | (*empty*)
 
 -   Список – последовательность выражений, разделённых точкой с запятой,
-    опционально завершённых `::`{.backtick} и выражением, и всё
+    опционально завершённых `::` и выражением, и всё
     заключено в квадратные скобки. Например:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`x::y`{.backtick}
-`[x::y]`{.backtick}
-`[x; y; z]`{.backtick}
-`[x; y; z]`{.backtick}
-`x::y::z::t`{.backtick}
-`[x::[y::[z::t]]]`{.backtick}
-`x::y::z::t`{.backtick}
-`[x; y; z :: t]`{.backtick}
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          x::y
+
+       </td>
+          <td>
+
+          [x::y]
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          [x; y; z]
+
+       </td>
+          <td>
+
+          [x; y; z]
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          x::y::z::t
+
+       </td>
+          <td>
+
+          [x::[y::[z::t]]]
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          x::y::z::t
+
+       </td>
+          <td>
+
+          [x; y; z :: t]
+
+       </td>
+      </tr>
+    </table>
+
 -   Заметьте, есть два способа записать последний случай.
 
 # Irrefutable patterns
@@ -118,67 +248,143 @@ patterns". Сопоставление значений таким паттерн
 что может называться irrefutable pattern:
 
 -   Переменная.
--   Символ `_`{.backtick}, соответствующий любому значению.
--   Конструктор тупла `()`{.backtick}.
+-   Символ `_`, соответствующий любому значению.
+-   Конструктор тупла `()`.
 -   Тупл с irrefutable patterns.
 -   Запись с irrefutable patterns.
 -   Irrefutable pattern с ограничением типа (type constraint).
 
 Заметьте, что термин "irrefutable" применяется не ко всем паттернам,
 сопоставление с которыми всегда удачно: например, тип с ровно одним
-конструктором (кроме `() : unit`{.backtick}) не является irrefutable.
+конструктором (кроме `() : unit`) не является irrefutable.
 
 # Конструкции с паттерн матчингом
 
--   Ключевое слово `function`{.backtick} больше не существует,
-    используйте `fun`{.backtick} вместо него.
--   При паттерн матчинге конструкций `fun`{.backtick},
-    `match`{.backtick} и `try`{.backtick} все варианты должны быть
-    заключены в квадратные скобки: открывающаяся скобка `[`{.backtick}
-    перед первым вариантом и закрывающаяся `]`{.backtick} после
+-   Ключевое слово `function` больше не существует,
+    используйте `fun` вместо него.
+-   При паттерн матчинге конструкций `fun`,
+    `match` и `try` все варианты должны быть
+    заключены в квадратные скобки: открывающаяся скобка `[`
+    перед первым вариантом и закрывающаяся `]` после
     последнего:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`match e with`{.backtick} \
- `  p1 -> e1`{.backtick} \
- `| p2 -> e2;;`{.backtick}
-`match e with`{.backtick} \
- `[ p1 -> e1`{.backtick} \
- `| p2 -> e2 ];`{.backtick}
-`fun x -> x;;`{.backtick}
-`fun [x -> x];`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          match e with
+           p1 -> e
+          | p2 -> e2;;
+
+       </td>
+          <td>
+
+          match e with
+          [ p1 -> e1
+          | p2 -> e2 ];
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          fun x -> x;;
+
+       </td>
+          <td>
+
+          fun [x -> x];
+
+       </td>
+      </tr>
+    </table>
+
 -   Однако, если вариант только один и паттерн является irrefutable,
     квадратные скобки не обязательны. Следующие примеры работают
     одинаково в оригинальном и revised синтаксисах:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`fun x -> x`{.backtick}
-`fun x -> x`{.backtick}
-`fun {foo=(y, _)} -> y`{.backtick}
-`fun {foo=(y, _)} -> y`{.backtick}
--   Каррированный паттерн матчинг может быть оформлен через
-    `fun`{.backtick}, но только с irrefutable паттернами:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`fun x (y, z) -> t`{.backtick}
-`fun x (y, z) -> t`{.backtick}
-`fun x y (C z) -> t`{.backtick}
-`fun x y -> fun [C z -> t]`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          fun x -> x
+
+       </td>
+          <td>
+
+          fun x -> x
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          fun {foo=(y, _)} -> y
+
+       </td>
+          <td>
+
+          fun {foo=(y, _)} -> y
+
+       </td>
+      </tr>
+    </table>
+
+-   Каррированный паттерн матчинг может быть оформлен через
+    `fun`, но только с irrefutable паттернами:
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          fun x (y, z) -> t
+
+       </td>
+          <td>
+
+          fun x (y, z) -> t
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          fun x y (C z) -> t
+
+       </td>
+          <td>
+
+          fun x y -> fun [C z -> t]
+
+       </td>
+      </tr>
+    </table>
+
 -   Теперь наконец-то стало возможно написать пустую функцию, кидающую
-    исключение `Match_failure`{.backtick}, какой бы аргумент к ней ни
-    применили, пустой `match`{.backtick}, кидающий
-    `Match_failure`{.backtick} после вычисления значения выражения, и
-    пустой `try`{.backtick}, эквивалентный выражению без
-    `try`{.backtick}:
+    исключение `Match_failure`, какой бы аргумент к ней ни
+    применили, пустой `match`, кидающий
+    `Match_failure` после вычисления значения выражения, и
+    пустой `try`, эквивалентный выражению без
+    `try`:
 
               fun []
               match e with []
               try e with []
 
--   Паттерны в `let`{.backtick} и `value`{.backtick} должны быть
+-   Паттерны в `let` и `value` должны быть
     irrefutable. Следующее выражение, написанное в original syntax:
 
               let f (x::y) = ...
@@ -187,56 +393,152 @@ patterns". Сопоставление значений таким паттерн
 
               let f = fun [ [x::y] -> ...
 
--   Конструкция `where`{.backtick} вернулась, но только с одной
-    привязкой: можно написать `e where x = y`{.backtick}, но не
-    `where x = y and z = t`{.backtick}
+-   Конструкция `where` вернулась, но только с одной
+    привязкой: можно написать `e where x = y`, но не
+    `where x = y and z = t`
 
 # Изменяемые значения и присваивание
 
--   Инструкция `<-`{.backtick} записывается как `:=`{.backtick}:
+-   Инструкция `<-` записывается как `:=`:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`x.f <- y`{.backtick}
-`x.f := y`{.backtick}
--   Тип `ref`{.backtick} объявлен как запись с одним полем
-    `val`{.backtick}, вместо `contents`{.backtick}. Оператор
-    `!`{.backtick} более не существует, и присваивать значения ссылкам
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          x.f <- y
+
+       </td>
+          <td>
+
+          x.f := y
+
+       </td>
+      </tr>
+    </table>
+
+-   Тип `ref` объявлен как запись с одним полем
+    `val`, вместо `contents`. Оператор
+    `!` более не существует, и присваивать значения ссылкам
     следует так же, как и любым другим изменяемым записям:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`x := !x + y`{.backtick}
-`x.val := x.val + y`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          x := !x + y
+
+       </td>
+          <td>
+
+          x.val := x.val + y
+
+       </td>
+      </tr>
+    </table>
 
 # Типы
 
 -   Конструкторы параметрических типов записываются перед параметрами, а
     параметры каррируются:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`int list`{.backtick}
-`list int`{.backtick}
-`('a, bool) Hashtbl.t`{.backtick}
-`Hashtbl.t 'a bool`{.backtick}
-`type 'a foo =`{.backtick} \
- `  'a list list;;`{.backtick}
-`type foo 'a =`{.backtick} \
- `  list (list 'a);`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          int list
+
+       </td>
+          <td>
+
+          list int
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          ('a, bool) Hashtbl.t
+
+       </td>
+          <td>
+
+          Hashtbl.t 'a bool
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          type 'a foo =
+            'a list list;;
+
+       </td>
+          <td>
+
+          type foo 'a =
+          list (list 'a);
+
+       </td>
+      </tr>
+    </table>
+
+
 -   В туплах из типов обязательны скобки:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`int * bool`{.backtick}
-`(int * bool)`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          int * bool
+
+       </td>
+          <td>
+
+          (int * bool)
+
+       </td>
+      </tr>
+    </table>
+
 -   В объявлении вариантного типа варианты должны быть заключены в
     квадратные скобки:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`type t = A of i | B;;`{.backtick}
-`type t = [ A of i | B ];`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          type t = A of i | B;;
+
+       </td>
+          <td>
+
+          type t = [ A of i | B ];
+
+       </td>
+      </tr>
+    </table>
+
 -   Возможно создать пустой (ненаселённый) тип, без конструктора:
 
               type foo = [];
@@ -244,55 +546,135 @@ patterns". Сопоставление значений таким паттерн
 -   Существует разница между конструкторами с несколькими параметрами и
     конструкторами с одним параметром, являющимся туплом. При объявлении
     конструктора с несколькими параметрами они разделены ключевым словом
-    `and`{.backtick}. В выражениях и при паттерн-матчинге параметры
+    `and`. В выражениях и при паттерн-матчинге параметры
     конструктора каррируются:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`type t = C of t1 * t2;;`{.backtick}
-`type t = [ C of t1 and t2 ];`{.backtick}
-`C (x, y);;`{.backtick}
-`C x y;`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          type t = C of t1 * t2;;
+
+       </td>
+          <td>
+
+          type t = [ C of t1 and t2 ];
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          C (x, y);;
+
+       </td>
+          <td>
+
+          C x y;
+
+       </td>
+      </tr>
+    </table>
+
 -   Объявление конструктора с одним параметром-туплом осуществляется с
     использованием тупла типов. В выражениях и паттернах параметры не
     каррируются, а матчатся как обычный тупл:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`type t = D of (t1 * t2);;`{.backtick}
-`type t = [ D of (t1 * t2) ];`{.backtick}
-`D (x, y);;`{.backtick}
-`D (x, y);`{.backtick}
--   Предопределённые конструкторы булевого типа `True`{.backtick} и
-    `False`{.backtick} начинаются с заглавной буквы, как любые другие
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          type t = D of (t1 * t2);;
+
+       </td>
+          <td>
+
+          type t = [ D of (t1 * t2) ];
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          D (x, y);;
+
+       </td>
+          <td>
+
+          D (x, y);
+
+       </td>
+      </tr>
+    </table>
+
+-   Предопределённые конструкторы булевого типа `True` и
+    `False` начинаются с заглавной буквы, как любые другие
     конструкторы.
--   В записях ключевое слово `mutable`{.backtick} должно быть после
+-   В записях ключевое слово `mutable` должно быть после
     двоеточия:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`type t = {mutable x : t1};;`{.backtick}
-`type t = {x : mutable t1};`{.backtick}
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          type t = {mutable x : t1};;
+
+       </td>
+          <td>
+
+          type t = {x : mutable t1};
+
+       </td>
+      </tr>
+    </table>
 
 # Модули
 
-Применение модулей теперь каррируется:
+- Применение модулей теперь каррируется:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`type t = Set.Make(M).t;;`{.backtick}
-`type t = (Set.Make M).t;`{.backtick}
+   <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          type t = Set.Make(M).t;;
+
+       </td>
+          <td>
+
+          type t = (Set.Make M).t;
+
+       </td>
+      </tr>
+    </table>
 
 # Полиморфные варианты
 
 Объявляются с указанием на открытость/закрытость типа:
+
     type poly_open = [> `A | `B of (int * string) ];
     type poly_eq = [= `A |`B of (int * string) ];
     type poly_closed = [< `A | `B of (int * string) ];
 
 # Объекты
 
-Объекты объявляются с использованием `value`{.backtick} для полей:
+Объекты объявляются с использованием `value` для полей:
+
     # object
         value my_field = 123;
         method my_method () = my_field;
@@ -301,52 +683,115 @@ patterns". Сопоставление значений таким паттерн
 
 # Разное
 
--   Часть `else`{.backtick} теперь обязательна в `if`{.backtick}:
+-   Часть `else` теперь обязательна в `if`:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`if a then b`{.backtick}
-`if a then b else ()`{.backtick}
--   Булевые операторы `or`{.backtick} и `and`{.backtick} записываются
-    только как `||`{.backtick} и `&&`{.backtick}:
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`a or b & c`{.backtick}
-`a || b && c`{.backtick}
-`a || b && c`{.backtick}
-`a || b && c`{.backtick}
+          if a then b
+
+       </td>
+          <td>
+
+          if a then b else ()
+
+       </td>
+      </tr>
+    </table>
+
+-   Булевые операторы `or` и `and` записываются
+    только как `||` и `&&`:
+
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          a or b & c
+
+       </td>
+          <td>
+
+          a || b && c
+
+       </td>
+      </tr>
+    </table>
 
 # Streams and parsers
 
--   Streams и паттерны в stream parsers окружаются `[:`{.backtick} и
-    `:]`{.backtick} вместо `[<`{.backtick} and `>]`{.backtick}.
+-   Streams и паттерны в stream parsers окружаются `[:` и
+    `:]` вместо `[<` and `>]`.
 -   Компонент stream'а записывается с обратным апострофом вместо
     обычного:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`[< '1; '2; s; '3 >]`
-`` [: `1; `2; s; `3 :] ``
--   Варианты в парсере заключаются в `[`{.backtick} and `]`{.backtick},
-    как в `fun`{.backtick}, `match`{.backtick} и `try`{.backtick}. Если
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          [< '1; '2; s; '3 >]
+
+       </td>
+          <td>
+
+          [: `1; `2; s; `3 :]
+
+       </td>
+      </tr>
+    </table>
+
+-   Варианты в парсере заключаются в `[` and `]`,
+    как в `fun`, `match` и `try`. Если
     вариант только один, скобки не обязательны:
 
-`OCaml`{.backtick}
-`Revised`{.backtick}
-`parser`{.backtick} \
- ``   [< `Foo >] -> e `` \
- `| [< p = f >] -> f`{.backtick}
-`parser`{.backtick} \
- `` [ [: `Foo :] -> e `` \
- `| [: p = f :] -> f ]`{.backtick}
-`parser [< 'x >] -> x`{.backtick}
-`` parser [ [: `x :] -> x ] ``
-`parser [< 'x >] -> x`{.backtick}
-`` parser [: `x :] -> x ``
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+
+          parser
+          [< `Foo >] -> e
+          | [< p = f >] -> f
+
+       </td>
+          <td>
+
+          parser [ [: `x :] -> x ]
+
+       </td>
+      </tr>
+      <tr>
+          <td>
+
+          parser [< 'x >] -> x
+
+       </td>
+          <td>
+
+          parser [: `x :] -> x
+
+       </td>
+      </tr>
+
 -   Возможно написать пустой парсер, кидающий исключение
-    `Stream.Failure`{.backtick}, какой бы поток к нему ни применили.
-    Пустой паттернг матчинг тоже кидает `Stream.Failure`{.backtick}:
+    `Stream.Failure`, какой бы поток к нему ни применили.
+    Пустой паттернг матчинг тоже кидает `Stream.Failure`:
 
               parser []
               match e with parser []
