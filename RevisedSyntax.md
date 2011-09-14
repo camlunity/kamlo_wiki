@@ -654,12 +654,12 @@ patterns". Сопоставление значений таким паттерн
 
           type t = Set.Make(M).t;;
 
-       </td>
+</td>
           <td>
 
             type t = (Set.Make M).t;
 
-       </td>
+</td>
       </tr>
     </table>
 
