@@ -6,6 +6,7 @@
     let ( >> ) x f = f x
 
 test
+> test2
 
     (** применить значение к функции:
         print_string & string_of_int & 123
