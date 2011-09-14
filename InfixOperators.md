@@ -5,6 +5,8 @@
     *)
     let ( >> ) x f = f x
 
+test
+
     (** применить значение к функции:
         print_string & string_of_int & 123
 
