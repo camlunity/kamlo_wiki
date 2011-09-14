@@ -9,6 +9,8 @@ test
 
 > test2
 
+>> test3
+
     (** применить значение к функции:
         print_string & string_of_int & 123
 
