@@ -29,7 +29,7 @@
         let for_all2 pred = not %%< List.exists2 (not %%< pred)
 
         let print_int = string_of_int @> print_string
-        let print_int_sum = ( + ) @>> string_of_int @> print_string
+        let print_int_sum = ( + ) @@> string_of_int @> print_string
         let print_int_sum = ( ( + ) @@> string_of_int) @@> print_string
         let for_all pred = List.exists (pred @> not) @> not
         let for_all2 pred = List.exists2 (pred @@> not) @@> not
