@@ -21,20 +21,50 @@
     let ( & ) f x = f x
 
     (** композиция функций:
-        let print_int = print_string % string_of_int
+        let print_int = print_string %< string_of_int
         let print_int = print_string $ string_of_int
-        let print_int_sum = print_string % string_of_int %% ( + )
-        let print_int_sum = print_string %% (string_of_int %% ( + ) )
-        let for_all pred = not % List.exists (not % pred)
-        let for_all2 pred = not %% List.exists2 (not %% pred)
+        let print_int_sum = print_string %< string_of_int %%< ( + )
+        let print_int_sum = print_string %%< (string_of_int %%< ( + ) )
+        let for_all pred = not %< List.exists (not %< pred)
+        let for_all2 pred = not %%< List.exists2 (not %%< pred)
 
-        Операторы левоассоциативны, у оператора ($) приоритет ниже,
-        чем у (%), и ниже, чем у арифметических операторов.
+        let print_int = print_string @> string_of_int
+        let print_int_sum = ( + ) @>> string_of_int @> print_string
+        let print_int_sum = ( ( + ) @@> string_of_int) @@> print_string
+        let for_all pred = List.exists (pred @> not) @> not
+        let for_all2 pred = not %%< List.exists2 (not %%< pred)
+
+        Операторы %< левоассоциативны.
+
+        У оператора ($) приоритет ниже, чем у (%), и ниже,
+        чем у арифметических операторов.  Однако он не
+        рекомендуется к использованию, так как конфликтует
+        с операторами, используемыми в синтаксических
+        расширениях.
+        
+        Операторы @> правоассоциативны (потому и не "%>",
+        что было бы красивее, учитывая наличие "%<").
+        
+        Знак ">" и "<" показывает направление композиции:
+        "@>" -- сначала аргумент проходит через первую
+        функцию и идёт слева направо, "%<" -- сначала
+        аргумент проходит через последнюю функцию и идёт
+        справа налево.
+        )
     *)
-    let ( % ) f g = fun x -> f (g x)
+    let ( %< ) f g = fun x -> f (g x)
+    let ( %%< ) f g = fun x y -> f (g x y)
+    let ( %%%< ) f g = fun x y z -> f (g x y z)
+
+    let ( @> ) g f = fun x -> f (g x)
+    let ( @@> ) g f = fun x y -> f (g x y)
+    let ( @@@> ) g f = fun x y z -> f (g x y z)
+
+    (* для совместимости со старым кодом: *)
+    let ( % ) = ( %< )
     let ( $ ) = ( % )
-    let ( %% ) f g = fun x y -> f (g x y)
-    let ( %%% ) f g = fun x y z -> f (g x y z)
+    let ( %% ) = ( %%< )
+    let ( %%% ) = ( %%%< )
 
     (** применить инфиксную функцию:
         123L /* Int64.add */ 234L
