@@ -42,7 +42,7 @@
 
 0. Туториал
     
-    [Getting Started](/kamlo_wiki/blob/master/GettingStarted.md)
+    [Getting Started](kamlo_wiki/blob/master/GettingStarted.md)
 
 1. В чём различие между "=" и "=="?
 
