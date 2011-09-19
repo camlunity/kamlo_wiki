@@ -20,6 +20,7 @@
 * [CIL](http://cil.sourceforge.net/)-- program analysis and transformation frontend for C language
 * [pfff](https://github.com/facebook/pfff/wiki/Main) -- code analysis and refactoring tool
 * [HaXe](http://haxe.org/) -- multiplatform (JS/Flash/PHP/C++) language
+* [Opa](http://opalang.org/faq.xmlt) -- web-oriented development platform (language + server + runtime)
 
 # Commercial users
 * [Citrix](http://wiki.xensource.com/xenwiki/XAPI_Developer_Guide) -- Xen virtualization technology API
