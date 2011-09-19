@@ -11,6 +11,7 @@
 * [HEVEA](http://hevea.inria.fr/) -- L<sup>A</sup>T<sub>E</sub>X to HTML translator
 * [SKS](http://minskyprimus.net/sks/) -- OpenPGP keyserver
 * [approx](http://packages.debian.org/sid/approx) -- caching proxy server for Debian archive files
+* [MediaWiki Math extension](http://www.mediawiki.org/wiki/Extension:Math) -- support for rendering mathematical formulas on-wiki
 
 # Development tools
 
@@ -30,6 +31,7 @@
 * [MyLife](http://www.mylife.com/) (former [Wink](http://oss.wink.com)) -- people search platform (backend)
 * [AlertLogic](http://www.alertlogic.com/) -- IT security and compliance automation (ocaml is used for log analysis)
 * [Echo](http://www.aboutecho.com/) (former JS-kit) -- platform for low latency web apps (Language transformations)
+* [MLstate](http://mlstate.com/) -- the company behind the Opa
 
 See also [Caml Consortium](http://caml.inria.fr/consortium/)
 
