@@ -1,7 +1,8 @@
 * * * * *
 
   -------------------------------------------------------------------------------------------------------
-  [/portability](kamlo_wiki/blob/master/bindings-portability.md) [/tips](kamlo_wiki/blob/master/bindings-tips.md)
+  [/portability](bindings-portability.md)
+  [/tips](bindings-tips.md)
   -------------------------------------------------------------------------------------------------------
 
 Перед тем как писать сишные биндинги :
