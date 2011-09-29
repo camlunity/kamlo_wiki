@@ -34,6 +34,7 @@ ocamlfind install -patch-version $version $packagename META x.mli x.cma x.cmi -o
 топлевела.
 
 Команды:
+
 -   \#use "topfind" загружает findlib
 -   \#list отображает список установленных в системе библиотек
 -   \#require <имя библиотеки\> добавляет в load path необходимые для
@@ -48,13 +49,14 @@ ocamlfind install -patch-version $version $packagename META x.mli x.cma x.cmi -o
 
 Подпакеты - средство организации пространств имён для библиотек.
 Синтаксические расширения принято держать в подпакете `.syntax`.
-Пример (компиляция):
+
+Пример (компиляция с использованием синтаксического расширения):
 
 ```
 ocamlfind ocamlc -linkpkg -syntax camlp4o -package deriving.syntax q.ml -o q
 ```
 
-Пример (интерпретатор):
+Пример (использование синтаксического расширения в интерпретаторе):
 
 ```
        Objective Caml version 3.11.2
