@@ -55,6 +55,7 @@ ocamlfind ocamlc -linkpkg -syntax camlp4o -package deriving.syntax q.ml -o q
 ```
 
 Пример (интерпретатор):
+
 ```
        Objective Caml version 3.11.2
 
