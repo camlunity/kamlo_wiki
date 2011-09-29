@@ -5,17 +5,16 @@ Getting Started
 Установка
 ---------
 
-Несмотря на то, что версия языка -- 3.12 вышла около года назад, в стабильных релизах
-[Debian](http://debian.org) и [Ubuntu](http://ubuntu.com) до сих пор доступна только
-предыдущая версия -- 3.11; устранить это досадное недоразумении можно подключив
-репозиторий [Debian OCaml Task Force](http://wiki.debian.org/Teams/OCamlTaskForce):
+В репозиториях дистрибутива может не быть новейшей (сейчас это 3.12.1) версии компилятора.
+Пользователи [Debian](http://debian.org) и [Ubuntu](http://ubuntu.com) могут получить
+ей через позиторий [Debian OCaml Task Force](http://wiki.debian.org/Teams/OCamlTaskForce):
 
     $ apt-key adv --keyserver pgp.surfnet.nl --recv 49881AD3
     $ gpg -a --export 49881AD3 | sudo apt-key add -
     OK
     $ sudo tee -a /etc/apt/sources.list > /dev/null
-    deb     http://ocaml.debian.net/debian/ocaml-3.12.0 sid main
-    deb-src http://ocaml.debian.net/debian/ocaml-3.12.0 sid main
+    deb     http://ocaml.debian.net/debian/ocaml-3.12.1 sid main
+    deb-src http://ocaml.debian.net/debian/ocaml-3.12.1 sid main
     ^D
     $ sudo aptitude update
     ...
@@ -41,7 +40,7 @@ REPL aka toplevel
 [rlwrap](http://utopia.knoware.nl/~hlub/rlwrap/):
 
     $ rlwrap ocaml
-            Objective Caml version 3.12.0
+            Objective Caml version 3.12.1
 
     #
 
