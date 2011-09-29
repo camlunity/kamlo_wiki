@@ -7,7 +7,7 @@ Getting Started
 
 В репозиториях дистрибутива может не быть новейшей (сейчас это 3.12.1) версии компилятора.
 Пользователи [Debian](http://debian.org) и [Ubuntu](http://ubuntu.com) могут получить
-ей через позиторий [Debian OCaml Task Force](http://wiki.debian.org/Teams/OCamlTaskForce):
+её через репозиторий [Debian OCaml Task Force](http://wiki.debian.org/Teams/OCamlTaskForce):
 
     $ apt-key adv --keyserver pgp.surfnet.nl --recv 49881AD3
     $ gpg -a --export 49881AD3 | sudo apt-key add -
