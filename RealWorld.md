@@ -12,6 +12,7 @@
 * [SKS](http://minskyprimus.net/sks/) -- OpenPGP keyserver
 * [approx](http://packages.debian.org/sid/approx) -- caching proxy server for Debian archive files
 * [MediaWiki Math extension](http://www.mediawiki.org/wiki/Extension:Math) -- support for rendering mathematical formulas on-wiki
+* [Paparazzi autopilot](http://paparazzi.enac.fr/) -- software for autonomous aircraft mission planning and monitoring
 
 # Development tools
 
