@@ -23,6 +23,7 @@
 * [pfff](https://github.com/facebook/pfff/wiki/Main) -- code analysis and refactoring tool
 * [HaXe](http://haxe.org/) -- multiplatform (JS/Flash/PHP/C++) language
 * [Opa](http://opalang.org/faq.xmlt) -- web-oriented development platform (language + server + runtime)
+* [Goanna](http://redlizards.com/) -- static analysis tool for C/C++
 
 # Commercial users
 * [Citrix](http://wiki.xensource.com/xenwiki/XAPI_Developer_Guide) -- Xen virtualization technology API
