@@ -1,5 +1,9 @@
 Тут мы собрали полезные инфиксные операторы.
 
+Кое-кто использует и развивает этот "базовый" код в проектах, например,
+в [cadastr](https://bitbucket.org/gds/cadastr/) ([посмотреть](https://bitbucket.org/gds/cadastr/src/tip/src/cd_Ops.ml)
+/ [скачать](https://bitbucket.org/gds/cadastr/raw/tip/src/cd_Ops.ml)).
+
     (** Оператор "|>" пропускает значение последовательно
         через функции:
         
