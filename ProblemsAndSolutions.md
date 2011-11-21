@@ -1,26 +1,54 @@
-* * * * *
+WTF
+===
 
-# WTF
+Мало библиотек
+--------------
 
-## Мало библиотек
+Чего не хватает?
 
-   Чего не хватает?
 
-## Нет готовых сборок под windows
+Нет готовых сборок под windows
+------------------------------
 
-   * новая официальная сборка, ссылка
-	 * сборка от ocamlpro
-	 * build.ygrek.org.ua
-	 * инструкция по сборке на mingw - проверить
-	 * что с x64?
+* новая официальная сборка, ссылка
+ * сборка от ocamlpro
+ * build.ygrek.org.ua
+ * инструкция по сборке на mingw - проверить
+ * что с x64?
 
-## Инфраструктура по установке зависомстей suxx или отсутствует
 
-	 * oasis-db + odb.ml
-	 * godi
-	 * nih который обсуждали в чате и надо бы запилить :)
+Нет инфраструктуры для сборки пакетов вместе с зависимостями
+------------------------------------------------------------
 
-## Эта вики уже достаточно полезна, но малоизвестна и недописана 
+Это правда. Но существуют частичные решения проблемы:
+
+### [OASIS-DB](http://oasis.ocamlcore.org/)
+
+Неспеша развивающийся проект по созданию CPAN-подобного каталога проектов, для
+OCaml, особенности (pitfalls? :)
+
+  * исходный код проектов хранятся на сервере OASIS-DB
+  * проекты добавляются ментейнерами вручную, поэтому содержимое трех имеющихся
+    репозиториев (stable, testing, unstable) практически не изменяется.
+  * предполагается что в будущем любой желающий сможет написать свой велосипед,
+    для установки пакетов, используя API OASIS-DB
+  * на данный момент единственный скрипт умеющий это --
+    [odb.ml](https://github.com/thelema/odb)
+
+Пример использования ``odb.ml``:
+
+    $ odb --repo unstable
+    Available packages: ANSITerminal CameraRescue CamlGI MOIFile archimedes archive batteries bench benchmark bin_prot cairo2 calendar camomile cmdliner cryptokit csv csv-analyze csv-generate csvgenerator curl estring expect extlib extunix fastrandom fieldslib fileutils gsl hdf4 irrlicht janest-core janest-core_extended lambda-term lambda-term-actions lbfgs lpd lwt monad-custom mysql oUnit oasis ocamlgraph ocamlify ocamlmod ocamlscript ocsigen-bundler odn pcre planck posix_resource radixtree react sexplib spotlib sqlexpr sqlite3 text type-conv utop utop-emacs xdg-basedir xmlm xstrp4 zarith zed zip
+    $ odb lwt zip zed
+    ... installing packages ...
+
+
+### GODI
+
+### rebar of OCaml
+
+
+## Эта вики уже достаточно полезна, но малоизвестна и недописана
 
 ## Нет англоязычной вики
 
@@ -44,4 +72,3 @@
 ## Отсутствует generic print
 
 ## Не самый лучший оптимизатор
-
