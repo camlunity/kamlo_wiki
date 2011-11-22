@@ -50,6 +50,7 @@ OCaml, особенности (*pitfalls*? :)
 Учитывая всю печальность ситуации, ожидается что какой нибудь доблестный
 велосипедист из рядов camlunity возьмет и запилит человеческую альтернативу
 всему вышеперечисленному, основные моменты :
+
 * [обсуждение в чате](http://chatlogs.jabber.ru/ocaml@conference.jabber.ru/2011/11/15.html#12:46:25.86714)
 * [план](https://docs.google.com/document/d/1dxbuu3RP3NCxMI54YFRtnwFUOTrIj-EWmBdwy32a0CI) в google docs
 
