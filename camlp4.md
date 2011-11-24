@@ -1,29 +1,22 @@
-* * * * *
+Camlp4
+======
 
-  -------------------------------------------------------------
-  [/StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md)
-  -------------------------------------------------------------
 
-Тут -- информация про camlp4, синтаксический препроцессор.
+Тут -- информация про camlp4, синтаксический препроцессор, см. также
+    [StreamParsers](kamlo_wiki/blob/master/camlp4-StreamParsers.md).
 
-Тут лежит [сгенерированная документация на camlp4 версии
-3.11.1](http://camlunity.ru/camlp4/).
+API [документация](http://camlunity.ru/docs/camlp4) для Camlp4 3.12 доступна на
+сайте [camlunity](http://camlunity.ru).
 
-Tip: (только при чём тут camlp4?)
-[rlwrap](http://utopia.knoware.nl/~hlub/uck/rlwrap/) добавляет
-редактирование "командной" строки в ocaml-интерпретатор (в частности).
-Есть аналогичная утилита , ledit его зовут, и написан на OCaml, но для
-его сборки требуется camlp5.
 
-## Пример
+Пример
+------
 
-    $ rlwrap ocaml
+    $ ocaml
             Objective Caml version 3.11.1
 
-    # #load "dynlink.cma";;
-    # #load "camlp4of.cma";;
-            Camlp4 Parsing version 3.11.1
-
+    # use "topfind";;
+    # #camlp4o;;
     # open Camlp4.PreCast;;
     # let expr = Gram.Entry.mk "expr";;
     val expr : '_a Camlp4.PreCast.Gram.Entry.t = <abstr>
@@ -37,13 +30,15 @@ Tip: (только при чём тут camlp4?)
     # Gram.parse_string expr _loc "1+3";;
     - : int = 4
 
-## Рецепты
+
+Рецепты
+-------
 
 ### Quotation'ы
 
-Quotation'ы всегда пишите в [revised
-синтаксисе](kamlo_wiki/blob/master/RevisedSyntax.md), иначе могут вылезти
-трудноуловимые неочевидные косяки (или баги в самом camlp4), основной
+Quotation'ы всегда пишите в
+[revised синтаксисе](kamlo_wiki/blob/master/RevisedSyntax.md), иначе могут
+вылезти трудноуловимые неочевидные косяки (или баги в самом Camlp4), основной
 код расширения можно писать и в original. См. например
 [PR\#5231](http://caml.inria.fr/mantis/view.php?id=5231)
 
@@ -104,11 +99,8 @@ DEFINE, IFDEF, etc
     type a = | A | B;;
     - : unit = ()
 
-### Ресурсы
 
-\* [Reading
-Camlp4](http://ambassadortothecomputers.blogspot.com/p/reading-camlp4.html)
+Ресурсы
+-------
 
-* * * * *
-
-2011-03-26 13:08
+* [Reading Camlp4](http://ambassadortothecomputers.blogspot.com/p/reading-camlp4.html)
