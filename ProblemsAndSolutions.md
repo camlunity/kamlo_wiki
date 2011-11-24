@@ -14,6 +14,7 @@ WTF
 * сборка от ocamlpro
 * build.ygrek.org.ua
 * инструкция по сборке на mingw - проверить
+* https://github.com/protz/ocaml-installer
 * что с x64?
 
 
