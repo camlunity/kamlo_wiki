@@ -70,7 +70,8 @@ OCaml, особенности (*pitfalls*? :)
    альтернативный рантайм - oc4mc
 
    альтернативная архитектура приложения - message passing :
-   * jocaml
+   * [jocaml](http://jocaml.inria.fr/)
+   * [parvel](https://bitbucket.org/gds/parvel/)
    * etc
 
    NB асинхронность <> паралельность, для асинхронности есть
