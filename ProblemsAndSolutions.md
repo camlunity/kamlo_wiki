@@ -52,8 +52,9 @@ OCaml, особенности (*pitfalls*? :)
 велосипедист из рядов camlunity возьмет и запилит человеческую альтернативу
 всему вышеперечисленному, основные моменты :
 
-* [обсуждение в чате](http://chatlogs.jabber.ru/ocaml@conference.jabber.ru/2011/11/15.html#12:46:25.86714)
+* [обсуждение в чате](http://chatlogs.jabber.ru/ocaml@conference.jabber.ru/2011/11/15.html#12:46:25.86714) (с чего всё началось)
 * [план](https://docs.google.com/document/d/1dxbuu3RP3NCxMI54YFRtnwFUOTrIj-EWmBdwy32a0CI/edit) в google docs
+* [код](https://github.com/camlunity/barbra)
 
 Эта вики уже достаточно полезна, но малоизвестна и недописана
 -------------------------------------------------------------
