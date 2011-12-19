@@ -10,7 +10,10 @@ Core OCaml
 Dormant interesting projects
 ----------------------------
 
-* [camlidl](http://caml.inria.fr/mantis/view.php?id=3958#c6346)
+* camlidl : [PR#3958](http://caml.inria.fr/mantis/view.php?id=3958),
+	[PR#4398](http://caml.inria.fr/mantis/view.php?id=4398),
+	[PR#3994](http://caml.inria.fr/mantis/view.php?id=3994),
+	[PR#4936](http://caml.inria.fr/mantis/view.php?id=4936)
 * [ocamldefun](http://web.archive.org/web/20051019052849/www.lri.fr/~signoles/ocamldefun/index.en.html)
 
 
