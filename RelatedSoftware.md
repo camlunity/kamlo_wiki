@@ -40,3 +40,5 @@ Related Software
 
   - [OCaml Iteratees](http://ocaml-iteratees.forge.ocamlcore.org/) Iteratees
     the OCaml way
+
+  - [barbra](https://github.com/camlunity/barbra) Damn simple package manager for OCaml (rebar-style)
