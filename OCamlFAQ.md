@@ -40,7 +40,7 @@
 
 # Избранное
 
--   [http://caml.inria.fr/pub/ml-archives/caml-list/2005/07/8c5ab2a75a3227c405b5ddbd84649e80.en.html]([Caml-list] "Just say no!" campaign against Obj)
+-   [[Caml-list] "Just say no!" campaign against Obj](http://caml.inria.fr/pub/ml-archives/caml-list/2005/07/8c5ab2a75a3227c405b5ddbd84649e80.en.html)
 
 # Местное
 
