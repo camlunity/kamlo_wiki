@@ -38,6 +38,10 @@
 -   [http://eigenclass.org/hiki/fp-ocaml-koans](http://eigenclass.org/hiki/fp-ocaml-koans)
 -   [http://gds.livejournal.com/35502.html](http://gds.livejournal.com/35502.html)
 
+# Избранное
+
+-   [http://caml.inria.fr/pub/ml-archives/caml-list/2005/07/8c5ab2a75a3227c405b5ddbd84649e80.en.html]([Caml-list] "Just say no!" campaign against Obj)
+
 # Местное
 
 0. Туториал
