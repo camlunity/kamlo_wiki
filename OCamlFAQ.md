@@ -145,5 +145,6 @@
 
     [Ответ](http://caml.inria.fr/pub/ml-archives/caml-list/2001/08/47db53a4b42529708647c9e81183598b.en.html) Xavier Leroy
 
+7. Зачем нужно различие let и let rec?
 
-
+    См. [тред](https://sympa-roc.inria.fr/wws/arc/caml-list/2012-01/msg00011.html)
