@@ -16,6 +16,7 @@
     guide](http://pauillac.inria.fr/cdrom_a_graver/www/caml/FAQ/qrg-eng.html)
 -   [Writing efficient numerical code in Objective
     Caml](http://caml.inria.fr/pub/old_caml_site/ocaml/numerical.html)
+-   [Stackoverflow ocaml tag wiki](http://stackoverflow.com/tags/ocaml/info)
 
 # Книги
 
