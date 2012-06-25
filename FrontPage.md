@@ -1,7 +1,7 @@
 * * * * *
 
 ![THIS IS
-KAMLO!!!111](http://gdsfh.dyndns.org/kamlo-ext/kamlo.png "THIS IS KAMLO!!!111")
+KAMLO!!!111](http://camlunity.ru/files/kamlo.png "THIS IS KAMLO!!!111")
 
 # Camlunity: русскоязычное OCaml-сообщество
 
