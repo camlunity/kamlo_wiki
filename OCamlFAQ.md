@@ -149,3 +149,7 @@
 7. Зачем нужно различие let и let rec?
 
     См. [тред](https://sympa-roc.inria.fr/wws/arc/caml-list/2012-01/msg00011.html)
+
+8. Что нового в OCaml 4?
+
+		См. [OCamlChanges](OCamlChanges.md)
