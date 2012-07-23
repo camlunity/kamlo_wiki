@@ -13,6 +13,7 @@
 * [approx](http://packages.debian.org/sid/approx) -- caching proxy server for Debian archive files
 * [MediaWiki Math extension](http://www.mediawiki.org/wiki/Extension:Math) -- support for rendering mathematical formulas on-wiki
 * [Paparazzi autopilot](http://paparazzi.enac.fr/) -- software for autonomous aircraft mission planning and monitoring
+* [Dose3](http://mancoosi.org/software/) -- a framework for managing distribution packages and their dependencies
 
 # Development tools
 
@@ -26,6 +27,7 @@
 * [Goanna](http://redlizards.com/) -- static analysis tool for C/C++
 
 # Commercial users
+
 * [Citrix](http://wiki.xensource.com/xenwiki/XAPI_Developer_Guide) -- Xen virtualization technology API
 * [LexiFi](http://www.lexifi.com/technology/ocaml) -- software applications and infrastructure technology for the capital markets industry
 * [Esterel Technologies](http://www.esterel-technologies.com/technology/free-software/) -- critical systems and software development solutions
@@ -36,8 +38,11 @@
 * [MLstate](http://mlstate.com/) -- the company behind the Opa
 * [Acunu](http://acunu.com/) - storage platform ([CUFP report](http://www.slideshare.net/acunu/acunu-ocaml-experience-report-cufp))
 
-See also [Caml Consortium](http://caml.inria.fr/consortium/)
+# See also
+
+* [Caml Consortium](http://caml.inria.fr/consortium/)
+* [ocaml-lang.org: Who is using OCaml?](http://ocamlweb.forge.ocamlcore.org/www/companies.html)
 
 * * * * *
 
-2011-03-26 13:09
+2012-07-23
