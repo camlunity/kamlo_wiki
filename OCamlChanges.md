@@ -4,7 +4,7 @@
 
 Здесь же краткий обзор основных изменений.
 
-# 4.00.0 (2012-07-26)
+# [4.00.0](http://caml.inria.fr/pub/distrib/ocaml-4.00/) (2012-07-26)
 
 - GADT'ы (generalized abstract datatypes)
 	([официальный	мануал](http://caml.inria.fr/pub/distrib/ocaml-4.00/ocaml-4.00beta-refman.html#htoc113),
