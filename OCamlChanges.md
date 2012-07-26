@@ -4,17 +4,18 @@
 
 Здесь же краткий обзор основных изменений.
 
-# 4.00.0
+# 4.00.0 (2012-07-26)
 
 - GADT'ы (generalized abstract datatypes)
 	([официальный	мануал](http://caml.inria.fr/pub/distrib/ocaml-4.00/ocaml-4.00beta-refman.html#htoc113),
 	[страница разработчиков](https://sites.google.com/site/ocamlgadt/)).
-- Меньше аннотаций типов при создании и распаковке first-class модулей. Компилятор выводит типы
-	из контекста. **FIXME** пример.
+- Меньше аннотаций типов при создании и распаковке first-class модулей (компилятор выводит типы
+	из контекста).
 - Новый синтаксис `(module M)` и `(module M : S)` в паттернах сопоставления, для распаковки
 	first-class модулей на месте.
 - Начисто переписан бэкенд для ARM процессоров: поддержка архитектур armel (EABI) и armhf
 	(EABI+VFPv3), Thumb-2 инструкции, PIC, natdynlink, профайлинг и бэктрейсы.
+- Установка внутренних библиотек компилятора в `+compiler-libs`.
 - Новый инсталлятор на Windows ([страница разработки](http://protz.github.com/ocaml-installer/)).
 - Больше оптимизаций:
 	- revised simplification of let-alias ([PR#5205](http://caml.inria.fr/mantis/view.php?id=5205),
