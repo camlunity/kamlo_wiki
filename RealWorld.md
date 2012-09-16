@@ -38,6 +38,7 @@
 * [MLstate](http://mlstate.com/) -- the company behind the Opa
 * [Acunu](http://acunu.com/) - storage platform ([CUFP report](http://www.slideshare.net/acunu/acunu-ocaml-experience-report-cufp))
 * [Mr.Number](http://mrnumber.com) -- e’re building a crowd-sourced identity service
+* [Redspell](http://redspell.ru/) --- games for social networks and mobile devices ([Framework on Github](https://github.com/serp256/lightning))
 # See also
 
 * [Caml Consortium](http://caml.inria.fr/consortium/)
