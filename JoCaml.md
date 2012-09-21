@@ -1,5 +1,3 @@
-* * * * *
-
 [JoCaml](http://jocaml.inria.fr) это диалект OCaml с встроенными в язык
 примитивами [join calculus](http://moscova.inria.fr/join/index.shtml) --
 модели описания конкурентных процессов. Начиная с версии 3.10 jocaml был
@@ -37,6 +35,8 @@ jocaml исопльзует рантайм ocaml поэтому все огра�
 [jocaml-list](http://yquem.inria.fr/pipermail/jocaml-list/2009-November/000125.html).
 FIXME примеры использования (wide-finder, ray tracer, всё?)
 
-* * * * *
+См. также
+---------
 
-2011-03-26 13:08
+* [Официальный мануал](http://jocaml.inria.fr/doc/index.html)
+* [Tutorial on join calculus and JoCaml](https://sites.google.com/site/winitzki/tutorial-on-join-calculus-and-its-implementation-in-ocaml-jocaml)
