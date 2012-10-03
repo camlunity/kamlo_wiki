@@ -716,13 +716,31 @@ patterns". Сопоставление значений таким паттерн
       <tr>
           <td>
 
-          a or b & c
+          a or b & c
 
        </td>
           <td>
 
-          a || b && c
+          a || b && c
 
+       </td>
+      </tr>
+    </table>
+    </table>
+
+-   В файлах интерфейса labeled аргументы надо указывать с тильдой:
+
+    <table border=1>
+      <tr>
+        <td>Ocaml</td>
+        <td>Revised</td>
+      </tr>
+      <tr>
+          <td>
+          val f: x:int -> unit
+       </td>
+          <td>
+          value f: ~x:int -> unit
        </td>
       </tr>
     </table>
