@@ -15,6 +15,8 @@
 * [Paparazzi autopilot](http://paparazzi.enac.fr/) -- software for autonomous aircraft mission planning and monitoring
 * [Dose3](http://mancoosi.org/software/) -- a framework for managing distribution packages and their dependencies
 * [Liquidsoap](http://savonet.sourceforge.net/) -- a swiss-army knife for multimedia streaming, notably used for netradios and webtvs
+* [seaiq](http://www.seaiq.com/) -- marine charting apps for iOS
+* [Psellos](http://psellos.com/) -- iOS games
 
 # Development tools
 
@@ -38,8 +40,9 @@
 * [Echo](http://www.aboutecho.com/) (former JS-kit) -- platform for low latency web apps (Language transformations)
 * [MLstate](http://mlstate.com/) -- the company behind the Opa
 * [Acunu](http://acunu.com/) - storage platform ([CUFP report](http://www.slideshare.net/acunu/acunu-ocaml-experience-report-cufp))
-* [Mr.Number](http://mrnumber.com) -- e’re building a crowd-sourced identity service
+* [Mr.Number](http://mrnumber.com) -- crowd-sourced identity service
 * [Redspell](http://redspell.ru/) --- games for social networks and mobile devices ([Framework on Github](https://github.com/serp256/lightning))
+
 # See also
 
 * [Caml Consortium](http://caml.inria.fr/consortium/)
