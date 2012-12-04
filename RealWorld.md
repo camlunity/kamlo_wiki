@@ -14,6 +14,7 @@
 * [MediaWiki Math extension](http://www.mediawiki.org/wiki/Extension:Math) -- support for rendering mathematical formulas on-wiki
 * [Paparazzi autopilot](http://paparazzi.enac.fr/) -- software for autonomous aircraft mission planning and monitoring
 * [Dose3](http://mancoosi.org/software/) -- a framework for managing distribution packages and their dependencies
+* [Liquidsoap](http://savonet.sourceforge.net/) -- a swiss-army knife for multimedia streaming, notably used for netradios and webtvs
 
 # Development tools
 
