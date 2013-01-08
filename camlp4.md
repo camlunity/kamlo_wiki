@@ -96,6 +96,25 @@ in
       Ast.ExInt (loc, "2")))
 ```
 
+### Разбор строки в AST
+
+```ocaml
+$ ocaml
+        Objective Caml version 3.12.1
+# #camlp4o;;
+    Camlp4 Parsing version 3.12.1
+# open Camlp4.PreCast;;
+# Syntax.parse_implem Loc.ghost (Stream.of_string "2+2");;
+- : Camlp4.PreCast.Syntax.Ast.str_item =
+Camlp4.PreCast.Syntax.Ast.StExp (<abstr>,
+ Camlp4.PreCast.Syntax.Ast.ExApp (<abstr>,
+  Camlp4.PreCast.Syntax.Ast.ExApp (<abstr>,
+   Camlp4.PreCast.Syntax.Ast.ExId (<abstr>,
+    Camlp4.PreCast.Syntax.Ast.IdLid (<abstr>, "+")),
+   Camlp4.PreCast.Syntax.Ast.ExInt (<abstr>, "2")),
+  Camlp4.PreCast.Syntax.Ast.ExInt (<abstr>, "2")))
+```
+
 ### Печать AST
 
 ```ocaml
