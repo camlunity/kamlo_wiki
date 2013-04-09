@@ -74,7 +74,10 @@ type t = A | B
 See also
 --------
 
+- [Q: Using “ocamlfind” to make the OCaml compiler and toplevel find (project specific) libraries](http://stackoverflow.com/questions/2023173/using-ocamlfind-to-make-the-ocaml-compiler-and-toplevel-find-project-specific/2056896#2056896)
 - [Q: OCaml toplevel with syntax extensions](http://stackoverflow.com/questions/7438373/ocaml-toplevel-with-syntax-extensions)
+- [Q: Which .cma file corresponds with which module in OCaml?](http://stackoverflow.com/a/9717348/118799)
+- [Q: How can the ocamlfind/ocamlbuild toolchain be used with project-local copies of packages?](http://stackoverflow.com/questions/7274960/how-can-the-ocamlfind-ocamlbuild-toolchain-be-used-with-project-local-copies-of)
 
 TODO
 ----
