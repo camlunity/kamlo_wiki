@@ -43,6 +43,8 @@ REPL aka toplevel
             Objective Caml version 3.12.1
 
     #
+    
+А лучше добавить в `.bashrc` следующий алиас `alias ocaml='rlwrap -t dumb -r -m -c ocaml'`.
 
 Топлевел окамла содержит ряд полезных [директив](http://caml.inria.fr/pub/docs/manual-ocaml/manual023.html#toc90)
 -- команд, начинающихся с "#" (октоторп, решётка). Среди них есть
