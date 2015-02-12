@@ -28,6 +28,8 @@
 * [HaXe](http://haxe.org/) -- multiplatform (JS/Flash/PHP/C++) language
 * [Opa](http://opalang.org/faq.xmlt) -- web-oriented development platform (language + server + runtime)
 * [Goanna](http://redlizards.com/) -- static analysis tool for C/C++
+* [Hack](http://hacklang.org/) -- progamming language for [HHVM](http://hhvm.com/) with incremental static typing and seamless PHP integration
+* [Flow](http://flowtype.org/) -- static type checker for Javascript
 
 # Commercial users
 
